@@ -1,0 +1,105 @@
+#netflix_logo{
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+#netflix_avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+nav{
+    background: linear-gradient(to bottom, black, transparent);
+    width: 100%;
+}
+
+#navdiv{
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav__black{
+    background:rgba(0, 0, 0, 0.9);
+    
+    transition: ease 500ms;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.link:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trow{
+    margin-top: -150px;
+    background: linear-gradient(to bottom, transparent ,rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 1));
+}
+.trowdiv{
+    overflow-x: scroll;
+    display: flex;
+    padding: 30px;
+    height: 300px;
+}
+.trowdiv img{
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 250px;
+}
+.trowdiv img:hover{
+    transform: scale(1.05)
+}
+.trowdiv::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+
+
+
+.roww{
+    margin-top: 20px; 
+    height: auto; 
+}
+.rowwdiv{
+    
+    overflow-x: scroll;
+    display: flex;
+    padding: 15px;
+    height: auto;
+}
+.rowwdiv img{
+    margin-right: 20px;
+    border-radius: 5px;
+    height: 220px;
+}
+.rowwdiv img:hover{
+    transform: scale(1.05)
+}
+.rowwdiv::-webkit-scrollbar{
+    display: none;
+}
+
+
+
