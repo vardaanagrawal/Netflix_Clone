@@ -25,7 +25,7 @@ export default function Banner({ genre }) {
   return (
     <div
       style={{
-        height: "70vh",
+        height: "60vh",
         width: "100%",
         backgroundImage: `url(https://image.tmdb.org/t/p/w500${bp})`,
         backgroundRepeat: "no-repeat",
@@ -45,7 +45,15 @@ export default function Banner({ genre }) {
         >
           {title}
         </div>
-
+        <div
+          style={{
+            fontSize: "12px",
+            color: "whitesmoke",
+          }}
+          id="overview"
+        >
+          {overview}
+        </div>
         <div>
           <Link to={{ pathname: `/trailer`, state: { movie: movie } }}>
             <button id="play" style={{borderRadius: '4px', marginTop: '5px', marginRight: '5px'}}>PLAY</button>
