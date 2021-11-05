@@ -30,10 +30,11 @@ export default function Banner({ genre }) {
         backgroundImage: `url(https://image.tmdb.org/t/p/w500${bp})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "100% 100%",
-        padding: "100px",
+        padding: "50px",
       }}
     >
-      <div style={{ width: "50%" }}>
+      <div>
+        <div>
         <div
           style={{
             fontSize: "28px",
@@ -44,9 +45,6 @@ export default function Banner({ genre }) {
         >
           {title}
         </div>
-        <div style={{ fontSize: "14px", color: "whitesmoke" }} id="title">
-          {overview}
-        </div>
 
         <div>
           <Link to={{ pathname: `/trailer`, state: { movie: movie } }}>
@@ -54,6 +52,7 @@ export default function Banner({ genre }) {
           </Link>
           <button>+WACTHLIST</button>
         </div>
+      </div>
       </div>
     </div>
   );
